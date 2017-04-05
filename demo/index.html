@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+    <title>scrabble-tile demo</title>
+
+    <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+
+    <link rel="import" href="../../iron-demo-helpers/demo-pages-shared-styles.html">
+    <link rel="import" href="../../iron-demo-helpers/demo-snippet.html">
+    <link rel="import" href="../scrabble-tile.html">
+
+    <style is="custom-style" include="demo-pages-shared-styles">
+    </style>
+  </head>
+  <body>
+    <div class="vertical-section-container centered">
+      <h3>Basic scrabble-tile demo</h3>
+      <demo-snippet>
+        <template>
+          <scrabble-tile></scrabble-tile>
+          <scrabble-tile letter="C" value="3"></scrabble-tile>
+          <scrabble-tile letter="Z" value="10"></scrabble-tile>
+          <scrabble-tile letter="I" value="1"></scrabble-tile>
+        </template>
+      </demo-snippet>
+    </div>
+  </body>
+</html>
